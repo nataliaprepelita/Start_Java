@@ -1,3 +1,5 @@
+package Homeworks.L1HW_Java_Prepelita_Natalia;
+
 public class InchesToMeters {
     public static void main(String[] args) {
         double inches, meters;

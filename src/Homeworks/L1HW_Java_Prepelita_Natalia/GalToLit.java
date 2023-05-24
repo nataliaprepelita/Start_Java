@@ -1,7 +1,7 @@
-/*
+package Homeworks.L1;/*
 Упражнение 1.1 стр.46
 Программа перевода галлонов в литры.
-Присвойте файлу с исходным кодом имя GalToLit.java.
+Присвойте файлу с исходным кодом имя Homeworks.L1.GalToLit.java.
 */
 
 import java.util.Scanner;
