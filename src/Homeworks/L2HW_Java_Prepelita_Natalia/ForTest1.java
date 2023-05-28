@@ -1,17 +1,25 @@
 package Homeworks.L2HW_Java_Prepelita_Natalia;
+
+import java.util.Scanner;
+
 //Упражнение 1 стр.125
 //Напишите программу, которая получает символы, введенные с клавиатуры, до тех пор, пока не встретится точка.
 // Предусмотрите в программе счетчик пробелов. Сведения о количестве пробелов должны выводиться в конце программы.
-public class ForTest {
+public class ForTest1 {
     public static void main(String[] args)
-    throws java.io.IOException{
+    throws java.io.IOException {
+       int i = 0;
+       int spaces = 0;
+       char ch;
 
-        int i;
 
-        System.out.println("Для остановки нажмите клавишу символ точки ' . '");
-        for (i=0; (char)System.in.read() != '.'; i++){
-            System.out.println("Проход # " +i );
-        }
+       do{
+           ch = (char)System.in.read();
+           if (ch == ' ') spaces++;
+           i++;
+           System.out.println("Проход # " + i);
+       } while (ch != '.');
 
+        System.out.println("Пробелов: " + spaces);
     }
 }

@@ -1,4 +1,4 @@
-package L2_Conditions_Loops;
+package Homeworks.L2HW_Java_Prepelita_Natalia;
 //Упражнение 2.2
 // Отображение таблицы истинности для логических операций
 public class LogicalOpTable {
