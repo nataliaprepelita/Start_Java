@@ -2,21 +2,21 @@ package L3_;
 
 import java.util.Scanner;
 
-public class ExceptingOrDemo {
+public class ExeptingOrDemo {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Is the product on 50% discount?");
         boolean isDiscounted = in.nextBoolean();
 
-        System.out.println("Do you have 50% discount card?");
+        System.out.println("Do you have 20% discount card?");
         boolean hasCard = in.nextBoolean();
-        
+
         System.out.println("Enter product price: ");
         double initialPrice = in.nextDouble();
 
         if (isDiscounted ^ hasCard){
             System.out.println("Either customer has discount card or the product is discounted itself, not both!");
-            initialPrice /=2;
+            initialPrice *=0.8;
         }else {
             if (isDiscounted){
                 System.out.println("Already discounted. You have card but it is not applicable.");
