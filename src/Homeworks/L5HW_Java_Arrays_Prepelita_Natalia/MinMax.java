@@ -1,4 +1,4 @@
-package L5_Classes;
+package Homeworks.L5HW_Java_Arrays_Prepelita_Natalia;
 
 public class MinMax {
     public static void main(String[] args) {

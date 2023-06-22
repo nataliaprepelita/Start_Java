@@ -1,4 +1,4 @@
-package Homeworks.L5HW_Prepelita_Natalia;
+package Homeworks.L5HW_Java_Arrays_Prepelita_Natalia;
 
 public class Bubble {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Bubble {
         int size;
         size = 10;
 
-        System.out.println("Исходный массив: ");
+        System.out.print("Исходный массив: ");
         for (int i = 0; i < size; i++)
             System.out.print(" " + nums[i]);
         System.out.println();
