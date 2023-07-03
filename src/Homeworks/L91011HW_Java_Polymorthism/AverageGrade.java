@@ -14,7 +14,7 @@ public class AverageGrade {
         int average = 0;
 
         try{
-            in = new Scanner(new File("C:\\Users\\user\\IdeaProjects\\Start_Java\\src\\Homeworks\\L678_Java_Inheritance_Prepelita_Natalia\\Grades.txt"));
+            in = new Scanner(new File("C:\\Users\\user\\IdeaProjects\\Start_Java\\src\\Homeworks\\L91011HW_Java_Polymorthism\\Grades.txt"));
         }catch (FileNotFoundException ex){
             System.out.println("Cannot open file " + ex);
         }
